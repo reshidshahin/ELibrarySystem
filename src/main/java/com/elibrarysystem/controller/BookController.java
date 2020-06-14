@@ -85,7 +85,7 @@ public class BookController {
 		return "books"; // JSP
 	}
 
-	@RequestMapping(value = "/user/order") // bunun icini yaz
+	@RequestMapping(value = "/user/order_book") // bunun icini yaz
 	public String orderBook(Model m, HttpSession session) {
 		Integer userId = (Integer) session.getAttribute("userId");
 		m.addAttribute("bookList", bookService.findAll());
