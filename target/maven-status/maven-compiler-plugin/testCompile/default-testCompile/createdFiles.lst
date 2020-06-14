@@ -1,0 +1,9 @@
+com/elibrarysystem/test/TestBookDAOSave.class
+com/elibrarysystem/test/TestUserDAODelete.class
+com/elibrarysystem/test/TestUserServiceRegister.class
+com/elibrarysystem/test/TestUserDAOSave.class
+com/elibrarysystem/test/TestUserDAOFindAll.class
+com/elibrarysystem/test/TestUserDAOFindByProp.class
+com/elibrarysystem/test/TestUserDAOFindSingleRecord.class
+com/elibrarysystem/test/TestUserDAOUpdate.class
+com/elibrarysystem/test/TestDataSource.class
