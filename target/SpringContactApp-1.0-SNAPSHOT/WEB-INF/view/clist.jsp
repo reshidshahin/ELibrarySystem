@@ -48,7 +48,7 @@
 						<p class="success">Book Saved Successfully</p>
 					</c:if>
 					<c:if test="${param.act eq 'del'}">
-						<p class="success">Book Deleted Successfully</p>
+						<p class="success">Books Deleted Successfully</p>
 					</c:if>
 				</div>
 				<div class="container" align="right">

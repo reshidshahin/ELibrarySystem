@@ -48,6 +48,7 @@
 				<%-- Page Content Area--%> <br />
 
 				<div class="table-responsive">
+					<h4>Available books in our Library<br>You can check from list and approach to library to take your book</h4>
 					<table border="1" cellpadding="3" width="100%" class="table table-striped table-hover table-bordered"
 						align="center">
 						<tr>
@@ -57,17 +58,17 @@
 							<th>ISSUEDTIME</th>
 							<th>RETURNTIME</th>
 							<th>COMMENTS</th>
-							<th>ACTION</th>
+
 						</tr>
 
-						<c:if test="${empty bookList}">
+						<c:if test="${empty allBookList}">
 							<tr>
 								<td align="center" colspan="8" class="error">No Records
 									Present</td>
 							</tr>
 						</c:if>
 
-						<c:forEach var="c" items="${bookList}" varStatus="st">
+						<c:forEach var="c" items="${allBookList}" varStatus="st">
 							<tr>
 
 								<td>${c.bookId}</td>
@@ -77,10 +78,6 @@
 								<td>${c.returnTime}</td>
 								<td>${c.comments}</td>
 
-								<s:url var="user_order" value="/user/order_book">
-									<s:param name="cid" value="${c.bookId}" />
-								</s:url>
-								<td align="center"><a href="${user_order}">Order Book</a></td>
 							</tr>
 						</c:forEach>
 					</table>

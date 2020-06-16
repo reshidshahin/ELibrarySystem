@@ -22,7 +22,8 @@
     <s:url var="url_uhome" value="/user/dashboard"/>
     <s:url var="url_bform" value="/user/book_form"/>
     <s:url var="url_clist" value="/user/clist"/>
-    <s:url var="url_order" value="/user/order"/>
+    <s:url var="url_order" value="/user/order_book"/>
+    <s:url var="url_vieworder" value="/user/vieworder"/>
     <a href="${url_uhome}">Home Page</a> | <a href="${url_order}">Order Book</a> | <a href="${url_bform}">Add Book</a> | <a href="${url_clist}">Book List</a> | <a href="${url_logout}">Logout</a>
 </c:if>
 
