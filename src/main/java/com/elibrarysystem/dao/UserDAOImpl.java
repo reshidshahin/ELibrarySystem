@@ -1,16 +1,16 @@
 package com.elibrarysystem.dao;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import com.elibrarysystem.domain.User;
+import com.elibrarysystem.rowmapper.UserRowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
 
-import com.elibrarysystem.domain.User;
-import com.elibrarysystem.rowmapper.UserRowMapper;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 @Repository
@@ -51,7 +51,7 @@ public class UserDAOImpl extends BaseDAO implements UserDAO {
         m.put("name", u.getName());
         m.put("phone", u.getPhone());
         m.put("email", u.getEmail());
-        m.put("address", u.getAddress());       
+        m.put("address", u.getAddress());
         m.put("role", u.getRole());
         m.put("loginStatus", u.getLoginStatus());
         m.put("userId", u.getUserId());
@@ -65,7 +65,7 @@ public class UserDAOImpl extends BaseDAO implements UserDAO {
 
     @Override
     public void delete(Integer userId) {
-        String sql="DELETE FROM users WHERE userId=?";
+        String sql = "DELETE FROM users WHERE userId=?";
         getJdbcTemplate().update(sql, userId);
     }
 
@@ -73,27 +73,27 @@ public class UserDAOImpl extends BaseDAO implements UserDAO {
     public User findById(Integer userId) {
         String sql = "SELECT userId, name, phone, email, address, loginName, role, loginStatus"
                 + " FROM users WHERE userId=?";
-        User u = getJdbcTemplate().queryForObject(sql, new UserRowMapper(),userId);
+        User u = getJdbcTemplate().queryForObject(sql, new UserRowMapper(), userId);
         return u;
     }
 
     @Override
     public List<User> findAll() {
-           String sql = "SELECT userId, name, phone, email, address, loginName, role, loginStatus"
+        String sql = "SELECT userId, name, phone, email, address, loginName, role, loginStatus"
                 + " FROM users";
            /*
            List<User> users = getJdbcTemplate().query(sql, new UserRowMapper());
            return users;
            */
-           return getJdbcTemplate().query(sql, new UserRowMapper());
-           
+        return getJdbcTemplate().query(sql, new UserRowMapper());
+
     }
 
     @Override
     public List<User> findByProperty(String propName, Object propValue) {
-         String sql = "SELECT userId, name, phone, email, address, loginName, role, loginStatus"
-                + " FROM users WHERE "+propName+"=?";
-         return getJdbcTemplate().query(sql, new UserRowMapper(), propValue);
+        String sql = "SELECT userId, name, phone, email, address, loginName, role, loginStatus"
+                + " FROM users WHERE " + propName + "=?";
+        return getJdbcTemplate().query(sql, new UserRowMapper(), propValue);
     }
 
 }

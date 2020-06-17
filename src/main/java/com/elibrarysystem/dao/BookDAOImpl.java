@@ -1,16 +1,16 @@
 package com.elibrarysystem.dao;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import com.elibrarysystem.domain.Book;
+import com.elibrarysystem.rowmapper.BookRowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
 
-import com.elibrarysystem.domain.Book;
-import com.elibrarysystem.rowmapper.BookRowMapper;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 @Repository
@@ -65,14 +65,14 @@ public class BookDAOImpl extends BaseDAO implements BookDAO {
     @Override
     public List<Book> findAllBooks() {
         String sql = "SELECT bookId, userId, bookName, author, issuedTime, returnTime, comments"
-        		+ " FROM books";
+                + " FROM books";
         return getJdbcTemplate().query(sql, new BookRowMapper()
         );
     }
 
     @Override
     public List<Book> findByProperty(String propName, Object propValue) {
-        String sql = "SELECT bookId, userId, bookName, author, issuedTime, returnTime, comments FROM books WHERE "+propName+"=?";
+        String sql = "SELECT bookId, userId, bookName, author, issuedTime, returnTime, comments FROM books WHERE " + propName + "=?";
         return getJdbcTemplate().query(sql, new BookRowMapper(), propValue);
     }
 

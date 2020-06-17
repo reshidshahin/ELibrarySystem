@@ -96,7 +96,6 @@ public class BookController {
     }
 
 
-
     @RequestMapping(value = "/user/book_search")
     public String bookSearch(Model m, HttpSession session, @RequestParam("freeText") String freeText) {
         Integer userId = (Integer) session.getAttribute("userId");

@@ -1,16 +1,16 @@
 package com.elibrarysystem.rowmapper;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import com.elibrarysystem.domain.Book;
 import org.springframework.jdbc.core.RowMapper;
 
-import com.elibrarysystem.domain.Book;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 
-public class BookRowMapper implements RowMapper<Book>{
+public class BookRowMapper implements RowMapper<Book> {
     @Override
     public Book mapRow(ResultSet rs, int i) throws SQLException {
-        Book b=new Book();
+        Book b = new Book();
         b.setBookId(rs.getInt("bookId"));
         b.setUserId(rs.getInt("userId"));
         b.setBookName(rs.getString("bookName"));
@@ -20,5 +20,5 @@ public class BookRowMapper implements RowMapper<Book>{
         b.setComments(rs.getString("comments"));
         return b;
     }
-    
+
 }

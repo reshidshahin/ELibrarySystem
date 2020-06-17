@@ -42,11 +42,12 @@
             <%-- Page Content Area--%>
             <h1>Dear <b><c:out value="${sessionScope.user.loginName}"/></b>, Welcome to our Application.</h1>
             <hr/>
-            User kitab elave ede bilsin ve elave elediyi kitablari list ede bilsin. Kitab sifaris ede bilsin.
-            <br>User rights are written below
-            - .... <br>
-            - .... <br>
-            - .... <br>
+            User rights are written below<br>
+            <hr>
+
+            <i>- User can list all books and check avaibility of book in library stock <br>
+            - User can add book/books to library <br>
+                - User can list all books which added library by him/her <br></i>
         </td>
     </tr>
     <tr>

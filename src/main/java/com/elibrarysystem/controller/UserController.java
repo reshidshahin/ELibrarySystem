@@ -1,22 +1,18 @@
 package com.elibrarysystem.controller;
 
-import javax.servlet.http.HttpSession;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DuplicateKeyException;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
-
 import com.elibrarysystem.command.LoginCommand;
 import com.elibrarysystem.command.UserCommand;
 import com.elibrarysystem.domain.User;
 import com.elibrarysystem.exception.UserBlockedException;
 import com.elibrarysystem.services.BookService;
 import com.elibrarysystem.services.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DuplicateKeyException;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+
+import javax.servlet.http.HttpSession;
 
 
 @Controller
@@ -70,7 +66,7 @@ public class UserController {
     @RequestMapping(value = "/logout")
     public String logout(HttpSession session) {
         session.removeAttribute("username");
-    	session.invalidate();
+        session.invalidate();
         return "redirect:index?act=lo";
     }
 
@@ -135,15 +131,15 @@ public class UserController {
             return "ERROR: Unable to Change Status";
         }
     }
-    
+
     @RequestMapping(value = "/check_avail")
     @ResponseBody
     public String checkAvailability(@RequestParam String username) {
-        if(userService.isUsernameExist(username)){
+        if (userService.isUsernameExist(username)) {
             return "This username is already taken. Choose another name";
-        }else{
+        } else {
             return "Yes! You can take this";
         }
     }
-    
+
 }

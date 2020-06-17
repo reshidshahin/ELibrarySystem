@@ -3,7 +3,7 @@ package com.elibrarysystem.command;
 
 public class LoginCommand {
     private String loginName;
-    private String password;    
+    private String password;
 
     public String getLoginName() {
         return loginName;
@@ -20,5 +20,5 @@ public class LoginCommand {
     public void setPassword(String password) {
         this.password = password;
     }
-    
+
 }

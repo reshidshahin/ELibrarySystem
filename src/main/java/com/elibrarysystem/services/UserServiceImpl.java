@@ -1,17 +1,17 @@
 package com.elibrarysystem.services;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.EmptyResultDataAccessException;
-import org.springframework.stereotype.Service;
-
 import com.elibrarysystem.dao.BaseDAO;
 import com.elibrarysystem.dao.UserDAO;
 import com.elibrarysystem.domain.User;
 import com.elibrarysystem.exception.UserBlockedException;
 import com.elibrarysystem.rowmapper.UserRowMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 @Service
@@ -62,9 +62,9 @@ public class UserServiceImpl extends BaseDAO implements UserService {
     public Boolean isUsernameExist(String username) {
         String sql = "SELECT count(loginName) FROM users WHERE loginName=?";
         Integer count = getJdbcTemplate().queryForObject(sql, new String[]{username}, Integer.class);
-        if(count==1){
+        if (count == 1) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }

@@ -5,12 +5,13 @@
  */
 package com.elibrarysystem.config;
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
 
-public class ContactAppDispatcherServletInitializer extends AbstractAnnotationConfigDispatcherServletInitializer{
+
+public class ContactAppDispatcherServletInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
     @Override
     protected Class<?>[] getRootConfigClasses() {
@@ -31,5 +32,5 @@ public class ContactAppDispatcherServletInitializer extends AbstractAnnotationCo
     public void onStartup(ServletContext servletContext) throws ServletException {
         super.onStartup(servletContext); //must present, bu yazilmasa islemiyecek project, hemise olmalidi
         //Configure global task here if required
-    }  
+    }
 }

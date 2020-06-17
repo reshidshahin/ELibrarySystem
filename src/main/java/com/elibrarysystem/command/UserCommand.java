@@ -14,6 +14,6 @@ public class UserCommand {
     public void setUser(User user) {
         this.user = user;
     }
-    
-    
+
+
 }

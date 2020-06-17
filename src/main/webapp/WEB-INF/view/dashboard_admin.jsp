@@ -41,10 +41,12 @@
             <h1>Welcome to our Admin page.</h1>
             <hr/>
 
-            <br>Admin rights are written below
-            - .... <br>
-            - .... <br>
-            - .... <br>
+            Admin rights are written below
+            <hr>
+
+            <i>- Admin can list all users and able to activate or block users <br>
+                - Blocked users cannot login again <br>
+                - Admin can list,edit,delete all books <br></i>
         </td>
     </tr>
     <tr>
