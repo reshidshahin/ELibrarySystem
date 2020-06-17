@@ -7,17 +7,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a161f21-4199-4fe9-b938-b03df73b250e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringContactApp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringContactApp_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elibrarysystem/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elibrarysystem/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/clist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/clist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/include/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/include/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/clist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/clist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/include/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/include/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/order.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elibrarysystem/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elibrarysystem/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/command/LoginCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/command/UserCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/config/ContactAppDispatcherServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/config/SpringRootConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/config/SpringWebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/dao/BaseDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/dao/BookDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/dao/BookDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/dao/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/dao/UserDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/domain/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/exception/UserBlockedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/rowmapper/BookRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/rowmapper/UserRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/services/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/services/BookServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/services/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/services/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/classes/com/elibrarysystem/util/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/glassfish-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/WEB-INF/glassfish-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp2-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/book_form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/WEB-INF/view/book_form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/books.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/WEB-INF/view/books.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/clist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/WEB-INF/view/clist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/dashboard_admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/WEB-INF/view/dashboard_admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/dashboard_user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/WEB-INF/view/dashboard_user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/include/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/include/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/include/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/WEB-INF/view/include/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/WEB-INF/view/order.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/reg_form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/WEB-INF/view/reg_form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/WEB-INF/view/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/WEB-INF/view/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/static/images/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/static/images/img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/static/js/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/static/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +145,53 @@
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.14">
     <configuration name="generated-requests#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ELibrarySystem" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ELibrarySystem" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Tomcat 8.5.14" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.14" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
@@ -280,8 +383,19 @@
       <workItem from="1592172987824" duration="1210000" />
       <workItem from="1592317834495" duration="99000" />
       <workItem from="1592318760713" duration="193000" />
-      <workItem from="1592318970343" duration="9003000" />
+      <workItem from="1592318970343" duration="9264000" />
+      <workItem from="1592352916075" duration="2793000" />
+      <workItem from="1592428334733" duration="558000" />
+      <workItem from="1592436428372" duration="437000" />
     </task>
+    <task id="LOCAL-00001" summary="Only font left">
+      <created>1592333423405</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592333423405</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,16 +405,23 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="Only font left" />
+    <option name="LAST_COMMIT_MESSAGE" value="Only font left" />
   </component>
   <component name="WindowStateProjectService">
     <state x="391" y="37" key="#Tomcat" timestamp="1591999132571">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state x="391" y="37" key="#Tomcat/0.23.1440.800@0.23.1440.800" timestamp="1591999132571" />
-    <state x="319" y="89" key="#Tomcat_Server" timestamp="1592000499036">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state x="391" y="31" key="#Tomcat_8.5.14" timestamp="1592436475098">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="391" y="31" key="#Tomcat_8.5.14/0.23.1440.797@0.23.1440.797" timestamp="1592436475098" />
+    <state x="319" y="89" key="#Tomcat_Server" timestamp="1592436469094">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="319" y="89" key="#Tomcat_Server/0.23.1440.795@0.23.1440.795" timestamp="1592000499036" />
+    <state x="319" y="89" key="#Tomcat_Server/0.23.1440.797@0.23.1440.797" timestamp="1592436469094" />
     <state x="319" y="89" key="#Tomcat_Server/0.23.1440.798@0.23.1440.798" timestamp="1591825126797" />
     <state x="319" y="89" key="#Tomcat_Server/0.23.1440.800@0.23.1440.800" timestamp="1591999094486" />
     <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592143452720">
@@ -320,118 +441,122 @@
     </state>
     <state x="319" y="89" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.23.1440.798@0.23.1440.798" timestamp="1591825130947" />
     <state x="319" y="89" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.23.1440.800@0.23.1440.800" timestamp="1591999125819" />
-    <state width="970" height="675" key="GridCell.Tab.0.bottom" timestamp="1592333155108">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="176" y="23" key="CommitChangelistDialog2" timestamp="1592333422990">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="176" y="23" key="CommitChangelistDialog2/0.23.1440.795@0.23.1440.795" timestamp="1592333422990" />
+    <state width="970" height="675" key="GridCell.Tab.0.bottom" timestamp="1592333460771">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state width="1398" height="433" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592051473998" />
-    <state width="970" height="675" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1592325781921" />
+    <state width="970" height="675" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1592333460771" />
     <state width="970" height="675" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1592333155108" />
     <state width="1398" height="362" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1592067741837" />
     <state width="541" height="549" key="GridCell.Tab.0.bottom/0.23.1440.800@0.23.1440.800" timestamp="1591999429577" />
     <state width="1398" height="250" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1590099784391" />
     <state width="1041" height="315" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1587390114939" />
-    <state width="970" height="675" key="GridCell.Tab.0.center" timestamp="1592333155107">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="970" height="675" key="GridCell.Tab.0.center" timestamp="1592333460770">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state width="1398" height="433" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592051473998" />
-    <state width="970" height="675" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1592325781921" />
+    <state width="970" height="675" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1592333460770" />
     <state width="970" height="675" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1592333155107" />
     <state width="1398" height="362" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1592067741836" />
     <state width="541" height="549" key="GridCell.Tab.0.center/0.23.1440.800@0.23.1440.800" timestamp="1591999429577" />
     <state width="1398" height="250" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1590099784389" />
     <state width="1041" height="315" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1587390114938" />
-    <state width="970" height="675" key="GridCell.Tab.0.left" timestamp="1592333155107">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="970" height="675" key="GridCell.Tab.0.left" timestamp="1592333460770">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state width="1398" height="433" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592051473997" />
-    <state width="970" height="675" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1592325781920" />
+    <state width="970" height="675" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1592333460770" />
     <state width="970" height="675" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1592333155107" />
     <state width="1398" height="362" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1592067741836" />
     <state width="541" height="549" key="GridCell.Tab.0.left/0.23.1440.800@0.23.1440.800" timestamp="1591999429577" />
     <state width="1398" height="250" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1590099784388" />
     <state width="1041" height="315" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1587390114938" />
-    <state width="970" height="675" key="GridCell.Tab.0.right" timestamp="1592333155108">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="970" height="675" key="GridCell.Tab.0.right" timestamp="1592333460770">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state width="1398" height="433" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592051473998" />
-    <state width="970" height="675" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1592325781921" />
+    <state width="970" height="675" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1592333460770" />
     <state width="970" height="675" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1592333155108" />
     <state width="1398" height="362" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1592067741837" />
     <state width="541" height="549" key="GridCell.Tab.0.right/0.23.1440.800@0.23.1440.800" timestamp="1591999429577" />
     <state width="1398" height="250" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1590099784390" />
     <state width="1041" height="315" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1587390114939" />
-    <state width="970" height="675" key="GridCell.Tab.1.bottom" timestamp="1592333155109">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="970" height="675" key="GridCell.Tab.1.bottom" timestamp="1592333460771">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state width="1398" height="433" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592051474000" />
-    <state width="970" height="675" key="GridCell.Tab.1.bottom/0.23.1440.795@0.23.1440.795" timestamp="1592325781923" />
+    <state width="970" height="675" key="GridCell.Tab.1.bottom/0.23.1440.795@0.23.1440.795" timestamp="1592333460771" />
     <state width="970" height="675" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1592333155109" />
     <state width="1398" height="362" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1592067741838" />
     <state width="541" height="549" key="GridCell.Tab.1.bottom/0.23.1440.800@0.23.1440.800" timestamp="1591999429579" />
     <state width="1398" height="250" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1590099784393" />
     <state width="1041" height="315" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1587390114940" />
-    <state width="970" height="675" key="GridCell.Tab.1.center" timestamp="1592333155109">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="970" height="675" key="GridCell.Tab.1.center" timestamp="1592333460771">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state width="1398" height="433" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1592051473999" />
-    <state width="970" height="675" key="GridCell.Tab.1.center/0.23.1440.795@0.23.1440.795" timestamp="1592325781922" />
+    <state width="970" height="675" key="GridCell.Tab.1.center/0.23.1440.795@0.23.1440.795" timestamp="1592333460771" />
     <state width="970" height="675" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1592333155109" />
     <state width="1398" height="362" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1592067741838" />
     <state width="541" height="549" key="GridCell.Tab.1.center/0.23.1440.800@0.23.1440.800" timestamp="1591999429579" />
     <state width="1398" height="250" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1590099784392" />
     <state width="1041" height="315" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1587390114940" />
-    <state width="970" height="675" key="GridCell.Tab.1.left" timestamp="1592333155108">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="970" height="675" key="GridCell.Tab.1.left" timestamp="1592333460771">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state width="1398" height="433" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1592051473999" />
-    <state width="970" height="675" key="GridCell.Tab.1.left/0.23.1440.795@0.23.1440.795" timestamp="1592325781922" />
+    <state width="970" height="675" key="GridCell.Tab.1.left/0.23.1440.795@0.23.1440.795" timestamp="1592333460771" />
     <state width="970" height="675" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1592333155108" />
     <state width="1398" height="362" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1592067741838" />
     <state width="541" height="549" key="GridCell.Tab.1.left/0.23.1440.800@0.23.1440.800" timestamp="1591999429578" />
     <state width="1398" height="250" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1590099784391" />
     <state width="1041" height="315" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1587390114940" />
-    <state width="970" height="675" key="GridCell.Tab.1.right" timestamp="1592333155109">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="970" height="675" key="GridCell.Tab.1.right" timestamp="1592333460771">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state width="1398" height="433" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1592051474000" />
-    <state width="970" height="675" key="GridCell.Tab.1.right/0.23.1440.795@0.23.1440.795" timestamp="1592325781923" />
+    <state width="970" height="675" key="GridCell.Tab.1.right/0.23.1440.795@0.23.1440.795" timestamp="1592333460771" />
     <state width="970" height="675" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1592333155109" />
     <state width="1398" height="362" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1592067741838" />
     <state width="541" height="549" key="GridCell.Tab.1.right/0.23.1440.800@0.23.1440.800" timestamp="1591999429579" />
     <state width="1398" height="250" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1590099784392" />
     <state width="1041" height="315" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1587390114940" />
-    <state width="970" height="675" key="GridCell.Tab.2.bottom" timestamp="1592333155111">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="970" height="675" key="GridCell.Tab.2.bottom" timestamp="1592333460772">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state width="1398" height="433" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592051474001" />
-    <state width="970" height="675" key="GridCell.Tab.2.bottom/0.23.1440.795@0.23.1440.795" timestamp="1592325781924" />
+    <state width="970" height="675" key="GridCell.Tab.2.bottom/0.23.1440.795@0.23.1440.795" timestamp="1592333460772" />
     <state width="970" height="675" key="GridCell.Tab.2.bottom/0.23.1440.797@0.23.1440.797" timestamp="1592333155111" />
     <state width="1398" height="362" key="GridCell.Tab.2.bottom/0.23.1440.798@0.23.1440.798" timestamp="1592067741839" />
     <state width="541" height="549" key="GridCell.Tab.2.bottom/0.23.1440.800@0.23.1440.800" timestamp="1591999429578" />
     <state width="1041" height="315" key="GridCell.Tab.2.bottom/0.23.1440.803@0.23.1440.803" timestamp="1587390114941" />
-    <state width="970" height="675" key="GridCell.Tab.2.center" timestamp="1592333155110">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="970" height="675" key="GridCell.Tab.2.center" timestamp="1592333460772">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state width="1398" height="433" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1592051474001" />
-    <state width="970" height="675" key="GridCell.Tab.2.center/0.23.1440.795@0.23.1440.795" timestamp="1592325781923" />
+    <state width="970" height="675" key="GridCell.Tab.2.center/0.23.1440.795@0.23.1440.795" timestamp="1592333460772" />
     <state width="970" height="675" key="GridCell.Tab.2.center/0.23.1440.797@0.23.1440.797" timestamp="1592333155110" />
     <state width="1398" height="362" key="GridCell.Tab.2.center/0.23.1440.798@0.23.1440.798" timestamp="1592067741838" />
     <state width="541" height="549" key="GridCell.Tab.2.center/0.23.1440.800@0.23.1440.800" timestamp="1591999429578" />
     <state width="1041" height="315" key="GridCell.Tab.2.center/0.23.1440.803@0.23.1440.803" timestamp="1587390114941" />
-    <state width="970" height="675" key="GridCell.Tab.2.left" timestamp="1592333155109">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="970" height="675" key="GridCell.Tab.2.left" timestamp="1592333460771">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state width="1398" height="433" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1592051474000" />
-    <state width="970" height="675" key="GridCell.Tab.2.left/0.23.1440.795@0.23.1440.795" timestamp="1592325781923" />
+    <state width="970" height="675" key="GridCell.Tab.2.left/0.23.1440.795@0.23.1440.795" timestamp="1592333460771" />
     <state width="970" height="675" key="GridCell.Tab.2.left/0.23.1440.797@0.23.1440.797" timestamp="1592333155109" />
     <state width="1398" height="362" key="GridCell.Tab.2.left/0.23.1440.798@0.23.1440.798" timestamp="1592067741838" />
     <state width="541" height="549" key="GridCell.Tab.2.left/0.23.1440.800@0.23.1440.800" timestamp="1591999429578" />
     <state width="1041" height="315" key="GridCell.Tab.2.left/0.23.1440.803@0.23.1440.803" timestamp="1587390114941" />
-    <state width="970" height="675" key="GridCell.Tab.2.right" timestamp="1592333155110">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="970" height="675" key="GridCell.Tab.2.right" timestamp="1592333460772">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state width="1398" height="433" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1592051474001" />
-    <state width="970" height="675" key="GridCell.Tab.2.right/0.23.1440.795@0.23.1440.795" timestamp="1592325781924" />
+    <state width="970" height="675" key="GridCell.Tab.2.right/0.23.1440.795@0.23.1440.795" timestamp="1592333460772" />
     <state width="970" height="675" key="GridCell.Tab.2.right/0.23.1440.797@0.23.1440.797" timestamp="1592333155110" />
     <state width="1398" height="362" key="GridCell.Tab.2.right/0.23.1440.798@0.23.1440.798" timestamp="1592067741839" />
     <state width="541" height="549" key="GridCell.Tab.2.right/0.23.1440.800@0.23.1440.800" timestamp="1591999429578" />
@@ -453,6 +578,10 @@
     <state x="397" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.798@0.23.1440.798" timestamp="1591999938833" />
     <state x="397" y="257" key="com.intellij.ide.util.TipDialog/0.23.1440.801@0.23.1440.801" timestamp="1589637797376" />
     <state x="397" y="257" key="com.intellij.ide.util.TipDialog/0.23.1440.803@0.23.1440.803" timestamp="1587390518810" />
+    <state x="508" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592333387189">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="508" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.795@0.23.1440.795" timestamp="1592333387189" />
     <state x="88" y="23" width="1289" height="755" key="new project wizard" timestamp="1592333197701">
       <screen x="0" y="23" width="1440" height="797" />
     </state>

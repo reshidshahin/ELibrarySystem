@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="SpringContactApp" />
+          <element id="module-output" name="ELibrarySystem" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.7.RELEASE" />
@@ -33,9 +33,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/SpringContactApp-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/ELibrarySystem-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="SpringContactApp/web/Web" />
+      <element id="javaee-facet-resources" facet="ELibrarySystem/web/Web" />
     </root>
   </artifact>
 </component>

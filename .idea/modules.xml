@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpringContactApp.iml" filepath="$PROJECT_DIR$/SpringContactApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ELibrarySystem.iml" filepath="$PROJECT_DIR$/ELibrarySystem.iml" />
     </modules>
   </component>
 </project>
