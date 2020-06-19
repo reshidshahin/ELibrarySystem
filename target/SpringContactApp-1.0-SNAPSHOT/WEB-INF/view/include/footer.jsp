@@ -1,1 +1,0 @@
-&COPY; Electron Library System <a target="_blank" href="http://google.com">All rights reserved</a>
